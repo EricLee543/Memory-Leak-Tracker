@@ -1,6 +1,6 @@
 # Memory-Leak-Tracker
 
-This is a toy project for completing CS302 Operating System.
+**This is a toy project for completing CS302 Operating System.**
 
 This program can record each memory allocation by using `instrumentation` (插桩) techniques when invoking functions such as malloc, calloc, and new in C/C++. It can also record each memory deallocation when invoking functions such as free and delete. Upon program exit, it outputs the addresses of unfreed/deleted memory to detect memory leaks.
 
